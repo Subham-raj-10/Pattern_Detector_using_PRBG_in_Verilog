@@ -1,4 +1,4 @@
-# 🔍 Pattern Detector with PRBG (Verilog Project)
+# 🔍 Pattern Detector using PRBG 
 This project implements a pattern detector to identify the sequence 101 using Verilog HDL. A Pseudo-Random Bit Generator (PRBG) provides a one-bit serial input stream to the detector circuit. Both modules share a clock and reset input, mapped to the ZedBoard’s clock and switch. The detector outputs the current 3-bit PATTERN and a one-bit Pattern_Detected flag, which is displayed on the ZedBoard’s LEDs. When reset is asserted, the system initializes with a seed; when released, the detector continuously checks for the sequence 101 in the PRBG-generated random stream. A testbench verifies detection accuracy for different input conditions.
 
 ## 🧠 Project Summary
